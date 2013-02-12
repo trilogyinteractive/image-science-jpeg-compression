@@ -1,7 +1,7 @@
 === 0.1 / 2013-02-12
 
 * This is a fork of image_science v.1.2.4
-* This gem allows modifies the default JPG compression rate from JPEG_QUALITYSUPERB (100:1) to 70:1.
+* This gem modifies the default JPG compression rate from JPEG_QUALITYSUPERB (100:1) to 70:1.
 * Future versions are planned to incorporate a variable compression rate.
 
 =======================================
