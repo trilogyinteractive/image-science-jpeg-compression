@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.summary     = "Image Science gem with variable JPG compression"
   s.description = "Image Science gem with variable JPG compression"
   s.authors     = ["Trilogy Interactive"]
-  s.email       = 'nick@quaran.to'
+  s.email       = 'tgutowski@trilogyinteractive.com'
   s.files       = ["lib/image_science_jpeg_compression.rb"]
   s.homepage    =
     'https://github.com/trilogyinteractive/image-science-jpeg-compression'
