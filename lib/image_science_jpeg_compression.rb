@@ -285,7 +285,7 @@ class ImageScience
         if ((fif != FIF_UNKNOWN) && FreeImage_FIFSupportsWriting(fif)) {
           BOOL result = 0, unload = 0;
           GET_BITMAP(bitmap);
-          flags = fif == FIF_JPEG ? 70 : 0;
+          flags = fif == FIF_JPEG ? JPEG_QUALITYNORMAL : 0;
 
           if (fif == FIF_PNG) FreeImage_DestroyICCProfile(bitmap);
           if (fif == FIF_JPEG && FreeImage_GetBPP(bitmap) != 24)
