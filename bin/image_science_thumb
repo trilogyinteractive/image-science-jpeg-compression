@@ -5,7 +5,7 @@ $s ||= false
 abort "#{File.basename $0} max_length files..." unless ARGV.size > 1
 
 require 'rubygems'
-require 'image_science'
+require 'image_science_jpeg_compression'
 
 max_length = ARGV.shift.to_i
 

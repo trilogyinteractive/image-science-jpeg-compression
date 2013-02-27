@@ -4,7 +4,7 @@ README.txt
 Rakefile
 bench.rb
 bin/image_science_thumb
-lib/image_science.rb
+lib/image_science_jpeg_compression.rb
 test/pix.png
 test/portrait.jpg
 test/test_image_science.rb
